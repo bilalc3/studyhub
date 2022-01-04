@@ -1,0 +1,9 @@
+.todoContainer {
+    height: calc(100vh - 40px);
+    font-size: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    color: #BD1E59;
+}

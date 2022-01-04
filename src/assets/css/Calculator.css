@@ -1,0 +1,102 @@
+.calcBigBox {
+    flex: 1 1 auto;
+    height: calc(100vh - 40px);
+    display: flex;
+}
+
+.calcLeft {
+    background-color: whitesmoke;  
+    float: left; 
+    width: 50%; 
+    color: #BD1E59;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 75px;
+}
+
+.calcRight{ 
+    width: 50vh;
+    background-color: rgb(97, 97, 97);
+    float: right; 
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.calcContainer {
+    display: flex;
+    height: calc(100vh - 40px);
+    justify-content: center;
+    align-items: center;
+    font-family: Barlow Semi Condensed;
+    padding: 16px;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 45px;
+    color: #BD1E59; 
+}
+
+.calculator {
+    width: 100%;
+    max-width: 400px;
+    
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 2px 20px rgb(0,0,0,0.2);
+}
+
+.calcDisplay{
+    padding: 16px;
+    text-align: right;
+    background-color: #292929;
+    color: white;
+    font-size: 26px;
+    font-weight: 350;
+}
+
+.calcDisplay span {
+    font-size: 15px;
+    color: rgb(182, 182, 182);
+}
+
+button {
+    appearance: none;
+    border: none; 
+    outline: none;
+    color: white;
+    font-size: 18px;
+    padding: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.92;
+}
+
+.calcOperators {
+    display: flex;
+}
+
+.calcOperators button {
+    flex: 1 1 0%;
+    background-color: #BD1E59;
+    font-weight: 680;
+}
+
+.calcDigits {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calcDigits button {
+    flex: 1 1 33.3%; 
+    max-width: 33.3%;
+    background-color: #292929;
+}

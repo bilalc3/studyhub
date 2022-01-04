@@ -4,9 +4,9 @@
 .rpsContainer {
     background-color: white;
     color: #101010;
-    font-family: Roboto;
+    font-family: Poppins;
     height: calc(100vh - 45px);
-
+    
     text-align: center;
 }
 
@@ -15,8 +15,15 @@
     
 }
 
-content {
+.rpsContainer img {
+    box-shadow: 0px 2px 20px rgb(0,0,0,0.2);
 }
+
+
+.rpsContainer p {
+    font-weight: bold;
+}
+
 
 .playContainer {
     display: flex;
@@ -34,4 +41,15 @@ content {
     align-items: center;
 
     font-family: Poppins;
+}
+
+.playAgain button {
+    background-color: #BD1E59;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0px 2px 20px rgb(0,0,0,0.2);
+}
+.liveScores {
+    font-family: monospace;
+    font-size: 30px;
 }
