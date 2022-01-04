@@ -1,0 +1,46 @@
+.homeContainer {
+    background-color: #FBFBFB;
+    min-height: calc(100vh - 45px);
+
+}
+
+.homeSessions {
+    display: flex;
+    height: calc(100vh - 45px);
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+.namesApp {
+    text-decoration: underline;
+    
+}
+
+.sessionPreview {
+    background-color: #BD1E59;
+    color: white;
+    font-family: Poppins;
+    width:300px; 
+    height: 400px; 
+    -webkit-border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 30px; 
+    align-items: center;
+
+}
+.sessionPreview:hover {
+    background-color: grey;
+}
+
+.sessionImg {
+    -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+
+    width: 160px;
+    max-height: 140px;
+}

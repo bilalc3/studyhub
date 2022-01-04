@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import TypeWriter from "typewriter-effect"
 import Button from 'react-bootstrap/Button'
 //import 'bootstrap/dist/css/bootstrap.min.css' 
-import './assets/css/extra.css'; 
+import { Link } from "react-router-dom";
 
 
 const realTimeClock = () => {
@@ -115,8 +115,10 @@ const Landing = () => {
                         </div>
 
                         <div className="intializer">
-                        
-                            <button type="button" className="btn btn-light startButton" data-bs-toggle="button" autocomplete="off" >Start Studying Session</button>
+                            <Link to={`/home`}>                        
+                                <button type="button" className="btn btn-light startButton" data-bs-toggle="button" autocomplete="off" >Start Studying Session</button>
+
+                            </Link>
 
                         </div>
                     </div>
